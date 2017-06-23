@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>个人注册</title>
+	<link rel="stylesheet" href="../CSS/Register.css" type="text/css" />
+	<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../JavaScript/Register.js"></script>
+</head>
+<body>
+	<div class="top_class">
+		<div></div>
+		<div class="top_div_class_1"><p>欢迎注册</p></div>
+		<div class="top_div_class_2"><p>已有账号?
+		      <span class="p_span">请登录</span></p>
+		</div>
+	</div>
+
+	<div class="top_bottom"><canvas id="canvas1" class="Canvas_1"></canvas></div>
+
+	<div class="form_class">
+		<form id="_form_1" action="../JSP/Register.jsp" method="post">
+			<div class="tr_class_1">
+				<div class="div_class_1">
+					<label class="content" for="username">
+						<span class="p_span_1">用户名</span>
+					</label>
+					<input type="text" name="username" id="username" class="Input"
+					       autocomplete="off" placeholder="您的账号或用户名" 
+					       tabindex="1" />
+					<label class="clear" for="username"></label>
+				</div>
+				<div class="Span_1"><span>支持中文、字母、数字、"_"的组合, 6-20个字符</span></div>
+			</div>
+			<div class="tr_class_2">
+				<div class="div_class_1">
+					<label class="content" for="password">
+						<span class="p_span_2">设置密码</span>
+					</label>
+					<input type="password" name="password" id="password" class="Input"
+						   autocomplete="off" placeholder="建议至少使用两种字符组合" 
+						   tabindex="2" />
+					<label class="clear" for="password"></label>
+				</div>
+				<div class="Span_1"><span>建议使用数字、字母和符号两种或以上的组合, 6-20个字符</span></div>
+			</div>
+			<div class="tr_class_3">
+				<div class="div_class_1">
+					<label class="content" for="confirm_password">
+					    <span class="p_span_2">确认密码</span>
+					</label>
+					<input type="password" name="confirm_password" id="confirm_password"
+					       class="Input" autocomplete="off" placeholder="请重新输入密码"
+					       tabindex="3" />
+					<label class="clear" for="confirm_password"></label>
+				</div>
+				<div class="Span_1"><span>请再次输入密码</span></div>
+			</div>
+			<div class="tr_class_4">
+				<div class="div_class_1">
+					<label class="content" for="contact">
+					 	<span class="p_span_2">手机验证</span>
+					</label>
+					<input type="text" name="contact" id="contact" class="Input"
+						   autocomplete="off" placeholder="请输入手机号"
+						   tabindex="4" />
+					<label class="clear" for="contact"></label>
+				</div>
+				<div class="Span_1">
+					<div class="Span_2"><span>完成验证后，你可以使用该手机号登录和找回密码</span></div>
+					<label class="Onchange">邮箱验证</label>
+				</div>
+				
+			</div>
+			<div>
+				<input type="submit" name="register" value="注&nbsp;&nbsp;&nbsp;&nbsp;册"
+				       class="Register" tabindex="5" />
+			</div>
+		</form>
+	</div>
+
+	<div class="middle_class"></div>
+
+	<div class="right_class">
+		<div></div>
+		<div class="line_class_1"></div>
+		<div></div>
+	</div>
+
+	<div class="bottom_class">
+		<div class="line_class_2"></div>
+	</div>
+</body>
+</html>
