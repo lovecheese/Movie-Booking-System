@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图片轮播</title>
+
+<style>
+	.wrapper {
+		border: 1px solid pink;
+		margin-left: 50px;
+		margin-top: 50px;
+		width: 1080px;
+		height: 350px;
+		position: absolute;
+	}
+
+	.banner {
+		border: 1px solid grey;
+		margin-left: 240px;
+		width: 600px;
+		height: 350px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.picture_box {
+		width:4200px;
+		height: 350px;
+		overflow: hidden;
+		position: relative;
+		
+	}
+</style>
+</head>
+<body>
+	<div class = "wrapper">
+		<div class = "banner">
+			<div class = "picture_box">
+				<div id = "unit1" class = "picture Unit1"></div>
+				<div id = "unit2" class = "picture Unit2"></div>
+				<div id = "unit3" class = "picture Unit3"></div>
+				<div id = "unit4" class = "picture Unit4"></div>
+				<div id = "unit5" class = "picture Unit5"></div>
+				<div id = "unit6" class = "picture Unit6"></div>
+				<div id = "unit7" class = "picture Unit7"></div>
+			</div>
+			<div class = "prev"></div>
+			<div class = "next"></div>
+
+			<div class = "scan">
+				<div id = "scan1" class = "sample1"></div>
+				<div id = "scan2" class = "sample2"></div>
+				<div id = "scan3" class = "sample3"></div>
+				<div id = "scan4" class = "sample4"></div>
+				<div id = "scan5" class = "sample5"></div>
+				<div id = "scan6" class = "sample6"></div>
+				<div id = "scan7" class = "sample7"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
